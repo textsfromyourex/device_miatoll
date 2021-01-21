@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 TitaniumOS
+# Copyright (C) 2020 Havoc-OS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/titanium_miatoll.mk
+    $(LOCAL_DIR)/havoc_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    titanium_miatoll-user \
-    titanium_miatoll-userdebug \
-    titanium_miatoll-eng
+    havoc_miatoll-user \
+    havoc_miatoll-userdebug \
+    havoc_miatoll-eng
