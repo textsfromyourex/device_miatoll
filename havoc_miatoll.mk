@@ -10,6 +10,9 @@ $(call inherit-product, device/xiaomi/miatoll/device.mk)
 # Inherit some common havoc stuff
 $(call inherit-product, vendor/havoc/config/common_full_phone.mk)
 
+# Include MiuiCamera
+$(call inherit-product, vendor/miuicamera/config.mk)
+
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
