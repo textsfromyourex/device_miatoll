@@ -7,20 +7,17 @@
 # Inherit from miatoll device
 $(call inherit-product, device/xiaomi/miatoll/device.mk)
 
-# Inherit some common havoc stuff
-$(call inherit-product, vendor/havoc/config/common_full_phone.mk)
+# Inherit some common cygnus stuff
+$(call inherit-product, vendor/cygnus/configs/common.mk)
 
 # Include MiuiCamera
-$(call inherit-product, vendor/miuicamera/config.mk)
+#$(call inherit-product, vendor/miuicamera/config.mk)
 
 # Bootanimation Resolution
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Official
-HAVOC_BUILD_TYPE := OFFICIAL
-
 # Device identifier
-PRODUCT_NAME := havoc_miatoll
+PRODUCT_NAME := cygnus_miatoll
 PRODUCT_DEVICE := miatoll
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := SM6250

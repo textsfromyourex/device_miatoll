@@ -1,13 +1,13 @@
 #
-# Copyright (C) 2020 Havoc-OS
+# Copyright (C) 2020 CygnusOS
 #
 # SPDX-License-Identifier: Apache-2.0
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/havoc_miatoll.mk
+    $(LOCAL_DIR)/cygnus_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    havoc_miatoll-user \
-    havoc_miatoll-userdebug \
-    havoc_miatoll-eng
+    cygnus_miatoll-user \
+    cygnus_miatoll-userdebug \
+    cygnus_miatoll-eng
